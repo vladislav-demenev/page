@@ -1,15 +1,16 @@
+// src/App.js
+
 import React from 'react';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Основная страница!</h1>
-      <nav>
-        <ul>
-          <li><a href="/ru/index.html">Русская версия</a></li>
-          <li><a href="/en/index.html">English Version</a></li>
-        </ul>
-      </nav>
+      <Header />
+      <main>
+        <h2>Добро пожаловать на главную страницу!</h2>
+        <p>Это простой сайт с навигацией.</p>
+      </main>
     </div>
   );
 }
