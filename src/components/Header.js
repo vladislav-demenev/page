@@ -1,11 +1,9 @@
-// src/components/Header.js
-
 import React from 'react';
 
 function Header() {
   return (
     <header>
-      <h1>My Website Header</h1>
+      <h1>Добро пожаловать на наш сайт!</h1>
       <nav>
         <ul>
           <li><a href="/ru/index.html">Русская версия</a></li>

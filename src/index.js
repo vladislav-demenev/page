@@ -1,6 +1,6 @@
-import './styles/main.scss';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './css/style.css';
+import App from './App';
 
-// Your main JavaScript logic here
-console.log("Welcome to the src directory!");
+ReactDOM.render(<App />, document.getElementById('root'));
